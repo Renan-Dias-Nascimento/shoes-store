@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 122px;
+    color: #777777;
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    box-shadow: 0px 1px 20px rgba(139, 139, 139, 0.65);
+}
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 26px;
+        padding-right: 39px;
+        padding-left: 19px;
+    }
+
+    header .logonav {
+        display: flex;
+        gap: 26px;
+    }
+
+
+section.titulo h1 {
+    font-size: 60px;
+    font-weight: 800;
+    max-width: 100%;
+    text-align: center;
+    color: black;
+    margin-bottom: 82px;
+}
+
+section.images1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+}
+
+section.images1 img,
+section.complex img,
+section.titulo2 .images2 img{
+    max-width: 100%;
+}
+
+section.titulo2 {
+    background-color: #C2185B;
+    margin-top: 207.06px;
+    margin-bottom: 163px;
+    padding: 61px 0 99px 0;
+}
+
+    section.titulo2 h2 {
+        font-size: 44px;
+        font-weight: 800;
+        text-align: center;
+        color: #fff;
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    section.titulo2 .images2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    section.titulo2 .images2 div {
+        background-color: #fff;
+        padding-bottom: 28px;
+    }
+
+    section.titulo2 .images2 .item {
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 11px;
+        margin-bottom: 0;
+    }
+
+    section.titulo2 .images2 .price {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 0 0 11px;
+    }
+    
+    
+section.complex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+}
+    
+    section.complex .column {
+        display: flex;
+        flex-direction: column;
+        width: 513px;
+        max-width: 100%;
+    }
+
+    section.complex h3 {
+        font-size: 39px;
+        font-weight: 600;
+        max-width: 100%;
+        margin-top: 0;
+        width: 585px;
+    }
+
+    section.complex button {
+        background-color: #C2185B;
+        border: none;
+        padding: 23px 85px;
+        font-size: 39px;
+        color: #ffffff;
+        font-weight: 600;
+        margin-bottom: 55px;
+        width: 403px;
+        max-width: 100%;
+    }
+    
+.workforus .formulario{
+    font-family: 'Roboto', sans-serif;
+}
+    
+.workforus .partof {
+    font-size: 39px;
+    font-weight: 600;
+    color: #575757;
+    margin-top: 55px;
+    margin-left: 123px;
+    margin-bottom: 36px;
+    padding: 0;
+}
+
+.workforus .container section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 77px;
+    margin-left: 52px; 
+}
+
+.workforus .full,
+.workforus .full input,
+.workforus .full select,
+.workforus .full textarea,
+.workforus .full label,
+.workforus span {
+    width: 538px;
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #9B9B9B;
+}
+
+.workforus .full select,
+.workforus .full textarea,
+.workforus .full input {
+border: 1px solid #9B9B9B;
+}
+
+.workforus .formulario p {
+    color: #9B9B9B;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 12px 0;
+}
+
+.workforus .formulario .check,
+.workforus .formulario .check2 {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+
+.formulario .resume input {
+    display: none;
+}
+
+.formulario .resume label {
+    padding: 2px 37px;
+    background-color: #C4C4C4;
+    color: white;
+    font-size: 14px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.workforus .formulario button{
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #C2185B;
+    padding: 5px 240px;
+    margin-top: 22px;
+    max-width: 100%;
+}
+
+.workforus .lorems {
+    width: 464px;
+    max-width: 100%;
+    color: #575757;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.workforus .check input, 
+.workforus .check2 input {
+    margin-bottom: 15px;
+}
+
+.workforus .check2 label{
+    margin-right: 50px;
+}
+
+.workforus .formulario .full #full-mensagem {
+    margin-top: 160px;
+}
+
+footer {
+    background-color: #C2185B;
+    color: #fff;
+    margin-top: 116px;
+    padding-bottom: 31px;
+}
+
+    footer .footing {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }  
+
+    footer .logo2 article {
+        font-size: 14px;
+        font-weight: 400;
+        width: 255px;
+        height: 91px;
+        margin-top: -23px;
+        
+    }
+
+    footer .logo2 {
+        width: 233px;
+        max-width: 100%;
+    }
+
+    footer .listas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .list {
+        list-style: none;
+        width: 246px;
+
+    }
+
+    footer ul {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 56px;
+        padding: 0;
+    }
+
+    footer ul li {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    footer .footing .list a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+ @media (max-width: 1279px) {
+    main .banner img {
+         width: 100%;
+     }
+ }
+
+ @media (max-width: 680px) {
+     main .banner img {
+         display: none;
+     }
+     header .logonav {
+         display:none;
+     }
+ }
